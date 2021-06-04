@@ -4,10 +4,7 @@ import { UserDashboardComponent } from './user-dashboard/user-dashboard.componen
 import { AuthGuard } from '../common/guard/auth.guard';
 import { UserGuard } from './guard/user.guard';
 import { ProfileComponent } from './profile/profile.component';
-import { ProductDetailsComponent } from './product/product-details/product-details.component';
-import { ProductComponent } from './product/product.component';
-import { WishlistComponent } from './wishlist/wishlist.component';
-import { CartComponent } from './cart/cart.component';
+
 import { PaymentComponent } from './payment/payment.component';
 import { ProfileEditComponent } from './profile/profile-edit/profile-edit.component';
 

@@ -41,6 +41,6 @@
   </table>
   <mat-divider></mat-divider>
   <div class="buttonPadding">
-    <button [disabled]="wishList === undefined || wishList.length ===0 " class="floatRight" mat-raised-button color="primary"
+    <button [disabled]="wishList === undefined || wishList.length ===0 " class="floatRight" (click)= "addToCart()" mat-raised-button color="primary"
       >Move to Cart</button>
   </div>
